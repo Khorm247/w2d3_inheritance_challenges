@@ -23,9 +23,7 @@ public class Car extends Vehicle{
     public String toString() {
         return "Car{" +
                 "numOfDoors=" + numOfDoors +
-                '}';
+                "} " + super.toString();
     }
-
-    //sdsdsd
 }
 
