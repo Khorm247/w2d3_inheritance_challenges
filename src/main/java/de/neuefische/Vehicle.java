@@ -2,12 +2,12 @@ package de.neuefische;
 
 public class Vehicle {
 
-    String model;
-    String manufacturer;
-    int yearOfManufacture;
-    double price;
+    private String model;
+    private String manufacturer;
+    private int yearOfManufacture;
+    private double price;
 
-    public Vehicle(java.lang.String model, java.lang.String manufacturer, int yearOfManufacture, double price) {
+    public Vehicle(String model, String manufacturer, int yearOfManufacture, double price) {
         this.model = model;
         this.manufacturer = manufacturer;
         this.yearOfManufacture = yearOfManufacture;
